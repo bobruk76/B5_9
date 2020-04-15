@@ -28,7 +28,7 @@ def fib_list(num=5000):
     return 'Сумма первых {} членов последовательности Фиббоначи равна {}'.format(num, sum(fib_list))
 
 def main():
-    num = 500
+    num = 5000
     print(fib_list(num))
 
 if __name__ == "__main__":
